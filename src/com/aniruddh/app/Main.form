@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.aniruddh.app.Main">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="300"/>
+    </constraints>
+    <properties>
+      <font name="Droid Sans" size="16"/>
+      <minimumSize width="500" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c5534" class="javax.swing.JLabel" binding="welcomeText">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Verdana" size="16"/>
+          <text value="Welcome to Database Connectivity App"/>
+        </properties>
+      </component>
+      <component id="9fa4e" class="javax.swing.JButton" binding="viewExisting">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Verdana" size="16"/>
+          <label value="View Existing Entries"/>
+          <text value="View Existing Entries"/>
+        </properties>
+      </component>
+      <component id="25ad6" class="javax.swing.JButton" binding="createNew">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Verdana" size="16"/>
+          <label value="Create New Entry"/>
+          <text value="Create New Entry"/>
+        </properties>
+      </component>
+      <component id="f7506" class="javax.swing.JLabel" binding="optiontext">
+        <constraints>
+          <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Verdana" size="16"/>
+          <text value="Choose your option : "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
